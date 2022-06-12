@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+h3 {
+  color: #fb3e44;
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.glass {
+  position: absolute;
+
+}
+
+header > div > form > input {
+  background-color: rgba(0,0,0,.05);
+}
+
+header > div > form > label {
+  background-color: rgba(0,0,0,.05);
+}
+
+.search-button {
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  width: 70px;
+}
+
+#join {
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+}
+
+#login {
+  text-decoration: none;
+  color: black;
+}
+
+#introduction {
+  text-align: center;
+  background-color: rgba(0,0,0,.05);
+}
+
+#intro-plans {
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  text-decoration: none;
+}
+
+#intro-join {
+  background-color: white;
+  color: black;
+  border: none;
+  text-decoration: none;
+}
+
+#description {
+  text-align: center;
+}
+
+#benefits {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#benefits .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createOrg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.createOrg a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px 40px;
+  font-size: 1em;
+  width: 200px;
+  margin: auto;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
