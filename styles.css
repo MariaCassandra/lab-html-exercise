@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins';
+  margin: 0 0 30px 0;
 }
 
 h3 {
@@ -61,6 +62,7 @@ header > div > form > label {
   text-decoration: none;
   border: 1px solid black;
   color: black;
+  margin-right: 20px;
 }
 
 #login {
@@ -71,6 +73,22 @@ header > div > form > label {
 #introduction {
   text-align: center;
   background-color: rgba(0,0,0,.05);
+  padding-bottom: 80px;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-style: bold;
+  padding-top: 80px;
+}
+
+#introduction article {
+  text-align: center; 
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+  margin: auto;
+  width: 400px;
 }
 
 #intro-plans {
@@ -78,6 +96,9 @@ header > div > form > label {
   color: white;
   border: none;
   text-decoration: none;
+  padding: 10px 30px; 
+  margin: 10px;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
 }
 
 #intro-join {
@@ -85,10 +106,36 @@ header > div > form > label {
   color: black;
   border: none;
   text-decoration: none;
+  padding: 10px 30px;
+  text-align: center;
+  white-space: nowrap;
+  width: 80px;
+  height: 30px;
+}
+
+.triangle-hexagon {
+    width: 150px;
+    padding: 50px;
+    margin: auto;
+}
+
+h2 {
+  font-size: 1.5em;
+  background-color: rgba(255,204,53,.4);
+  font-style: italic;
+  width: 60%;
+  margin: auto;
+  padding: 0 5px;
 }
 
 #description {
   text-align: center;
+}
+
+#description article {
+  width: 650px;
+  margin: auto;
+  padding-top: 50px;
 }
 
 #benefits {
